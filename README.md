@@ -1,24 +1,15 @@
-# README
+# Ruby on Rails Test project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+Dashboard of an imaginary cloud hosting website using rails and React.
 
-* Ruby version
+## Features
 
-* System dependencies
+* Set up through docker-compose
+* React SSR integration
+* Basic listing of compute types using API
 
-* Configuration
+## Screenshot
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![Screenshot](app/assets/images/screenshot.png?raw=true "Rails Test")
