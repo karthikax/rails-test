@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+bundle add react_on_rails --version=12.0.4 --strict
+bundle exec rails webpacker:install
+bundle exec rails webpacker:install:react
+rails generate react_on_rails:install --ignore-warnings
