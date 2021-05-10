@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  root 'pages#index'
+	root 'pages#index'
 
-  get '*path', to: 'pages#index', via: :all
+	namespace :api do
+		namespace :v1 do
+			resources :computes, param: :name
+		end
+	end
+
+	get '*path', to: 'pages#index', via: :all
 end
